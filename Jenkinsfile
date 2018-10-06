@@ -9,7 +9,7 @@ node {
      
    }
    stage('Build') {
-         echo "from Git
+         echo "from Git"
    }
    stage('Results') {
        build job: "gitpush"     
